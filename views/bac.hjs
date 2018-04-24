@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+  	<!-- {{ title }} tells HJS to use variable title when
+  		rendering this page -->
+
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Maven+Pro" />
+  <body>
+
+
+  	<!-- This can be turned into a menu easily -->
+    <ul id = "header" >
+          <li id = "header" ><a class="active" href="/#home" >Home</a></li>
+          <li id = "header" > <a class="inactive" id = "header" href="/sweetspot">The Sweet Spot</a></li>
+          <li id = "header" > <a class="inactive" id = "header" href="/bac">BAC Calculator</a></li>
+          <li id = "header" > <a class="inactive" id = "header" href="/cups" >CUPS</a></li>
+          <li id = "header" > <a id = "header" href="/events">Upcoming Events</a></li>
+          <li id = "header" > <a class="inactive" id = "header" href="/resources">Resources</a></li>
+          <li id = "header" > <a id = "header" href="/contact">Contact Us</a></li>
+        </ul>
+
+        <br></br>
+        <br></br>
+        <br></br>
+
+        <head>
+            <meta charset="utf-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <title>BAC Calculator</title>
+            <meta name="description" content="A calculator designed to estimate your blood alcohol content given the number and types of drinks consumed.">
+            <link rel="stylesheet" href="main.css">
+        </head>
+
+
+            <h1>BAC Calculator</h1>
+
+            <p>USE THIS BAC CALCULATOR TO FIND YOUR SWEET SPOT. FOR A SAFE NIGHT OF DRINKING, STAY AT A LEVEL OF 0.05 OR BELOW, AND IT'LL BE THE PERFECT BUZZ.</p>
+
+            <br>Please use the following chart to estimate the quantity of standard drinks consumed, each representing a single standard drink:
+            <img src="images/standard-drink.png" alt="drink chart">
+
+            <form>
+                Gender: <br>
+                <select id="gender">
+                    <option value="female">Female</option>
+                    <option value="male">Male</option>
+                    <option value="neither">Other</option>
+                </select>
+                <br><br> Weight: <br>
+                <input type="number" id="weight" value="140"> lbs
+                <br><br>Number of standard drinks:<br>
+                <input type="number" id="drink_count" value="0">
+                <br><br>Amount of time elapsed:<br>
+                <input type="number" id="time_elapsed" value="0"> hours<br><br>
+                <input type="button" id="go" value="Submit" onclick="calculateBAC();"/><br>
+
+            </form>
+
+            <script src="calculations.js"></script>
+
+        </body>
+
+
+
+  </body>
+</html>

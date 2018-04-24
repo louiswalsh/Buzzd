@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  	<!-- {{ title }} tells HJS to use variable title when
+  		rendering this page -->
+    <title>{{ title }}</title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+    <ul id = "header" >
+      <li id = "header" ><a href="/#home" >Home</a></li>
+      <li id = "header" > <a id = "header" href="/sweetspot">The Sweet Spot</a></li>
+      <li id = "header" > <a id = "header" href="/bac">BAC Calculator</a></li>
+      <li id = "header" > <a id = "header" href="/cups" >CUPS</a></li>
+      <li id = "header" > <a id = "header" href="/events">Upcoming Events</a></li>
+      <li id = "header" > <a id = "header" href="/resources">Resources</a></li>
+      <li id = "header" > <a class="active" id = "header" href="/contact">Contact Us</a></li>
+  	</ul>
+    <br><br>
+  	<h1>{{ title }}</h1>
+
+  	<!-- This can be turned into a menu easily -->
+
+
+    <br><br><br><br><br><br><br><br>
+      <center>
+    <h1>"We love hearing from students!"</h1>
+    <p> "If you have any questions or comments for the Buzz'd Team, please feel free to contact us! We look forward to hearing from you!"
+
+    <br><br><br><button onclick="window.open('mailto:shavrh14@wfu.edu?subject=Buzz&#8217;d%20Contact');">Contact me</button>
+
+</html>

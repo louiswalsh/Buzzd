@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  	<!-- {{ title }} tells HJS to use variable title when
+  		rendering this page -->
+    <title>{{ title }}</title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+  	<h1>{{ title }}</h1>
+
+  	<!-- This can be turned into a menu easily -->
+    <ul id = "header" >
+          <li id = "header" ><a class="active" href="/#home" >Home</a></li>
+          <li id = "header" > <a class="inactive" id = "header" href="/sweetspot">The Sweet Spot</a></li>
+          <li id = "header" > <a class="inactive" id = "header" href="/bac">BAC Calculator</a></li>
+          <li id = "header" > <a class="inactive" id = "header" href="/cups" >CUPS</a></li>
+          <li id = "header" > <a id = "header" href="/events">Upcoming Events</a></li>
+          <li id = "header" > <a class="inactive" id = "header" href="/resources">Resources</a></li>
+          <li id = "header" > <a id = "header" href="/contact">Contact Us</a></li>
+        </ul>
+
+        <br></br>
+        <br></br>
+        <br></br>
+        
+
+
+    <div class="header section">
+        <h1>THE HIVE</h1>
+    </div>
+
+    <div class="container section">
+    	<h2>The HIVE is the home to all of your resources offered by Wake Forest University and the surrounding community</h2>
+    		<div class="cup row">
+    			<div class="span6">
+       			<h3>Conditions and Task Force</h3>
+    				<p>In order to accomplish the goals and of the HIVE and buzz'd programs, it is crucial to actively involve members of the Wake Forest community and members of the local community surrounding Wake Forest in prevention efforts. Find out how you can get involved!</p>
+    	   	</div>
+    		</div><!-- .cup row -->
+
+        <div class="cup row">
+          <div class="span6">
+            <h3>Student Health Service</h3>
+            <p>The mission of the Student Health Service is to promote and maintain the health of students attending the university by modifying or removing health-related barriers to learning</p>
+          </div>
+        </div><!-- .cup row -->
+
+    		<div class="cup last row">
+    			<div class="span6">
+              <h3>University Counseling Center</h3>
+
+          </div>
+    		</div><!-- .cup row -->
+
+    </div><!-- .container -->
+
+
+  </body>
+</html>

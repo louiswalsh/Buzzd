@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  	<!-- {{ title }} tells HJS to use variable title when
+  		rendering this page -->
+    <title>{{ title }}</title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+  	<h1>{{ title }}</h1>
+
+  	<!-- This can be turned into a menu easily -->
+    <ul id = "header" >
+          <li id = "header" ><a class="active" href="/#home" >Home</a></li>
+          <li id = "header" > <a class="inactive" id = "header" href="/sweetspot">The Sweet Spot</a></li>
+          <li id = "header" > <a class="inactive" id = "header" href="/bac">BAC Calculator</a></li>
+          <li id = "header" > <a class="inactive" id = "header" href="/cups" >CUPS</a></li>
+          <li id = "header" > <a id = "header" href="/events">Upcoming Events</a></li>
+          <li id = "header" > <a class="inactive" id = "header" href="/resources">Resources</a></li>
+          <li id = "header" > <a id = "header" href="/contact">Contact Us</a></li>
+        </ul>
+
+        <br></br>
+        <br></br>
+        <br></br>
+        
+
+<div class="container section">
+	<h1>Too much honey? Know your C.U.P.S.</h1>
+	<p>Bee there for your friends and keep the HIVE thriving! If you think your friend has alcohol poisoning use the CUPS acronym to look for these 4 indicators:</p>
+		<div class="cup row">
+			<div class="span6">
+   			<h2>C - Cold Skin</h2>
+				<p>Alcohol affects parts of the brain that maintain a healthy body temperature.  Too much alcohol can stop this part of the brain from working and can cause your organs to shut down.  People with alcohol poisoning can be cold to the touch.</p>
+	   	</div>
+		</div><!-- .cup row -->
+
+		<div class="cup row">
+			<div class="span6">
+				<h2>U - Unresponsive</h2>
+				<p>When a person has consumed so much alcohol that they can’t function normally they may not be able to respond to anything.  It's like alcohol anesthesia.</p>
+	   	</div>
+		</div><!-- .cup row -->
+
+		<div class="cup row">
+			<div class="span6">
+				<h2>P - Puking</h2>
+				<p>Alcohol poisoning causes people to puke. Puking won't lower a person's BAC, but it can make a person even more dehydrated.  Alcohol also inhibits a person's gag reflex. This might make a person choke on their own vomit or breath it into their lungs.</p>
+	   	</div>
+		</div><!-- .cup row -->
+
+		<div class="cup last row">
+			<div class="span6">
+				<h2>S - Slow Breathing</h2>
+				<p>Alcohol also affects the part of the brain that regulates breathing. Breaths can become slow, shallow and irregular.  A person may even have fewer than 8 breaths per minute.  If a person isn't breathing enough, they aren't getting enough oxygen to their brain.</p>
+	   	</div>
+		</div><!-- .cup row -->
+
+</div><!-- .container -->
+
+  </body>
+</html>
