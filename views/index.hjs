@@ -11,11 +11,11 @@
 
   	<!-- This can be turned into a menu easily -->
     <ul id = "header" >
-          <li id = "header" ><a class="inactive" href="/#home" >Home</a></li>
+          <li id = "header" ><a class="active" href="/#home" >Home</a></li>
           <li id = "header" > <a class="inactive" id = "header" href="/sweetspot">The Sweet Spot</a></li>
           <li id = "header" > <a class="inactive" id = "header" href="/bac">BAC Calculator</a></li>
           <li id = "header" > <a class="inactive" id = "header" href="/cups" >CUPS</a></li>
-          <li id = "header" > <a class = "active" id = "header" href="/events">Upcoming Events</a></li>
+          <li id = "header" > <a class = "inactive" id = "header" href="/events">Upcoming Events</a></li>
           <li id = "header" > <a class="inactive" id = "header" href="/resources">Resources</a></li>
           <li id = "header" > <a id = "header" href="/contact">Contact Us</a></li>
         </ul>
