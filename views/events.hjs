@@ -5,27 +5,22 @@
 
     <link rel='stylesheet' href='/stylesheets/style.css' />
     <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Maven+Pro" />
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+    <link rel="icon" href="https://i.imgur.com/3aTCFlm.png">
 
+    <div class="navbar">
+      <a href="/#home">Home</a>
+      <a href="/sweetspot">Sweetspot</a>
+      <a href="/contact">Contact Us</a>
+      <a href="/bac">BAC Calculator</a>
+      <a href="/events">Upcoming Events</a>
+      <a href="/resources">Resources</a>
+      <a href="/cups">Cups</a>
+    </div>
   <body>
-
-
-  	<!-- This can be turned into a menu easily -->
-    <ul id = "header" >
-          <li id = "header" ><a class="inactive" href="/#home" >Home</a></li>
-          <li id = "header" > <a class="inactive" id = "header" href="/sweetspot">The Sweet Spot</a></li>
-          <li id = "header" > <a class="inactive" id = "header" href="/bac">BAC Calculator</a></li>
-          <li id = "header" > <a class="inactive" id = "header" href="/cups" >CUPS</a></li>
-          <li id = "header" > <a class ="active" id = "header" href="/events">Upcoming Events</a></li>
-          <li id = "header" > <a class="inactive" id = "header" href="/resources">Resources</a></li>
-          <li id = "header" > <a id = "header" href="/contact">Contact Us</a></li>
-        </ul>
-
-        <br></br>
-        <br></br>
-        <br></br>
-
-        <iframe src="https://calendar.google.com/calendar/embed?title=BUZZ&#39;D%20EVENT%20CALENDAR&amp;showPrint=0&amp;showTabs=0&amp;height=600&amp;wkst=1&amp;bgcolor=%23ffcc00&amp;src=yenida14%40wfu.edu&amp;color=%2329527A&amp;ctz=America%2FNew_York" style="border:solid 1px #777" width="800" height="600" frameborder="0" scrolling="no"></iframe>
-
+    <br><br><br>
+    <h1>EVENTS</h1>
+    <iframe src="https://calendar.google.com/calendar/embed?title=BUZZ&#39;D%20EVENT%20CALENDAR&amp;showPrint=0&amp;showTabs=0&amp;height=600&amp;wkst=1&amp;bgcolor=%23ffcc00&amp;src=yenida14%40wfu.edu&amp;color=%2329527A&amp;ctz=America%2FNew_York" style= "border:0px" width="800" height="600" scrolling="no" border-width=0 class:"center" ></iframe>
 
   </body>
 </html>

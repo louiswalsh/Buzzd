@@ -1,46 +1,86 @@
 
 
 body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
-}
+  padding: 0px;
+  background-color:	#DCDCDO;
+  font-family: Raleway, sans-serif;
+  font-size: 16px;
+  }
 
 #lcol {vertical-align:top;}
 
-#header a {
-  color: #00B7FF;
+h1 {
+  font-weight: bold;
+  font-size: 20;
+  padding-right: 500px;
+  padding-left: 300px;
 }
-#header ul{
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333;
-    position:absolute;
-    top:0px;
-    right:0px
+h2
+{
+  padding-right: 500px;
+  padding-left: 300px;
 }
-
-#header li{
-    float: left;
-    background-color: #333;
-    list-style-type: none;
-
+iframe
+{
+  padding-left: 300px;
+  position: absolute;
+  outline: none;
+  border-width: "0";
+  position: absolute;
+  align: center;
 }
-
-#header li a {
+h3
+{
+  padding-right: 500px;
+  padding-left: 300px;
+}
+p{
+  padding-right: 500px;
+  padding-left: 300px;
+}
+img{
+  padding-right: 300px;
+  padding-left: 300px;
+}
+form{
+  padding-right: 300px;
+  padding-left: 300px;
+}
+title{
+  font-weight: bold;
+  font-size: 20;
+}
+.center {
     display: block;
-    color: white;
+    margin-left: auto;
+    margin-right: auto;
+}
+.navbar {
+    overflow: hidden;
+    background-color: #d6b03b;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+    padding: 0;
+}
+
+/* Links inside the navbar */
+.navbar a {
+    float: left;
+    display: block;
+    color: black;
     text-align: center;
-    list-style-type: none;
     padding: 14px 16px;
     text-decoration: none;
 }
-
-/* Change the link color to #111 (black) on hover */
-#header li a:hover {
-    background-color: #111;
+/* Change background on mouse-over */
+.navbar a:hover {
+    background: yellow;
+    color: black;
 }
-#header .active {
-    background-color: #4CAF50;
+
+/* Main content */
+.body {
+    margin-top: 30px; /* Add a top margin to avoid content overlay */
+overlay */
 }

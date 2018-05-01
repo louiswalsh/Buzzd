@@ -5,33 +5,22 @@
 
     <link rel='stylesheet' href='/stylesheets/style.css' />
     <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Maven+Pro" />
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+    <link rel="icon" href="https://i.imgur.com/3aTCFlm.png">
 
+    <div class="navbar">
+      <a href="/#home">Home</a>
+      <a href="/sweetspot">Sweetspot</a>
+      <a href="/contact">Contact Us</a>
+      <a href="/bac">BAC Calculator</a>
+      <a href="/events">Upcoming Events</a>
+      <a href="/resources">Resources</a>
+      <a href="/cups">Cups</a>
+    </div>
   <body>
-
-
-  	<!-- This can be turned into a menu easily -->
-    <ul id = "header" >
-          <li id = "header" ><a class="active" href="/#home" >Home</a></li>
-          <li id = "header" > <a class="inactive" id = "header" href="/sweetspot">The Sweet Spot</a></li>
-          <li id = "header" > <a class="inactive" id = "header" href="/bac">BAC Calculator</a></li>
-          <li id = "header" > <a class="inactive" id = "header" href="/cups" >CUPS</a></li>
-          <li id = "header" > <a class = "inactive" id = "header" href="/events">Upcoming Events</a></li>
-          <li id = "header" > <a class="inactive" id = "header" href="/resources">Resources</a></li>
-          <li id = "header" > <a id = "header" href="/contact">Contact Us</a></li>
-        </ul>
-
-        <br></br>
-        <br></br>
-        <br></br>
-
-
-
-
-    <a href="https://imgur.com/8EpBlkO"><img src="https://i.imgur.com/8EpBlkO.png" alt="Buzz'd" title="source: imgur.com" class="center" height="300px" width="300px"/></a>
-
-
+    <br><br><br>
     <h1 >WHAT'S THE BUZZ?!</h1>
-
+    <a href="https://imgur.com/8EpBlkO"><img src="https://i.imgur.com/8EpBlkO.png" alt="Buzz'd" class: "center" "title="source: imgur.com" class="center" height="300px" width="300px"/></a>
     <p>Buzz'd is the Wake Forest University substance abuse prevention, education, and intervention program. The mission of Buzz'd is to gain a greater understanding of the dynamics of alcohol and other drug misuse in our community, provide education, counseling and resources to individuals and groups, and empower students to party smarter, not harder. Buzz'd takes a realistic approach to alchol abuse on campus, focuzsing on educating students on safe-drinking practices and preventing high-risk behaviors rather than an idealistic 'abstinence only' message.</p>
 
 
