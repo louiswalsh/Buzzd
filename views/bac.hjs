@@ -6,11 +6,11 @@
     <link rel='stylesheet' href='/stylesheets/style.css' />
     <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Maven+Pro" />
     <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
-    <link rel="icon" href="https://i.imgur.com/3aTCFlm.png">
+    <link rel="icon" href="https://i.imgur.com/lgzQoTG.png">
 
     <div class="navbar">
       <a href="/#home">Home</a>
-      <a href="/sweetspot">Sweetspot</a>
+      <a href="/sweetspot">Sweetspot<https://imgur.com/a/zSaYska/a>
       <a href="/contact">Contact Us</a>
       <a href="/bac">BAC Calculator</a>
       <a href="/events">Upcoming Events</a>
@@ -26,16 +26,11 @@
             <meta name="description" content="A calculator designed to estimate your blood alcohol content given the number and types of drinks consumed.">
             <link rel="stylesheet" href="main.css">
         </head>
-
-
             <h1>BAC Calculator</h1>
-
             <p>USE THIS BAC CALCULATOR TO FIND YOUR SWEET SPOT. FOR A SAFE NIGHT OF DRINKING, STAY AT A LEVEL OF 0.05 OR BELOW, AND IT'LL BE THE PERFECT BUZZ.</p>
-
             <br>
             <p>Please use the following chart to estimate the quantity of standard drinks consumed, each representing a single standard drink:</p>
-            <img src="images/standard-drink.png" alt="drink chart">
-
+            <a href="https://i.imgur.com/sAZ5xBY.jpg"><img src="https://i.imgur.com/sAZ5xBY.jpg" alt="Buzz'd" class: "center" "title="source: imgur.com" class="center" /></a>
             <form>
                 Gender: <br>
                 <select id="gender">

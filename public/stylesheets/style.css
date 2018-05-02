@@ -2,7 +2,7 @@
 
 body {
   padding: 0px;
-  background-color:	#DCDCDO;
+  background-color:	#F5F5F5;
   font-family: Raleway, sans-serif;
   font-size: 16px;
   }
@@ -60,7 +60,7 @@ title{
     background-color: #d6b03b;
     position: fixed; /* Set the navbar to fixed position */
     top: 0; /* Position the navbar at the top of the page */
-    width: 100%; /* Full width */
+    width: 98.9%; /* Full width */
     padding: 0;
 }
 
