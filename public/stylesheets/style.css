@@ -34,7 +34,7 @@ h2
 }
 iframe
 {
-  padding-left: 300px;
+  padding-left: 20%;
   position: absolute;
   outline: none;
   border-width: "0";
@@ -89,9 +89,7 @@ title{
     width: 98.9%; /* Full width */
     padding: 0;
     z-index: 1;
-
 }
-
 /* Links inside the navbar */
 .navbar a {
     float: left;
@@ -106,6 +104,7 @@ title{
 .navbar a:hover {
     background: yellow;
     color: black;
+    font-weight: bold;
 }
 
 /* Main content */
