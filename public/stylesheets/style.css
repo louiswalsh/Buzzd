@@ -12,13 +12,25 @@ body {
 h1 {
   font-weight: bold;
   font-size: 20;
-  padding-right: 500px;
-  padding-left: 300px;
+  padding-top: 10px;
+  padding-left: 20%;
+  padding-right: 20%;
+  min-width: 500px
+  position:relative;
+  z-index: 0;
+  resize: both;
+  overflow: auto;
+
 }
 h2
 {
-  padding-right: 500px;
-  padding-left: 300px;
+  padding-left: 20%;
+  padding-right: 20%;
+  padding-bottom: 10px;
+  min-width: 500px
+  z-index: 0;
+  resize: both;
+  overflow: auto;
 }
 iframe
 {
@@ -28,23 +40,37 @@ iframe
   border-width: "0";
   position: absolute;
   align: center;
+  resize: both;
+  overflow: auto;
 }
 h3
 {
-  padding-right: 500px;
-  padding-left: 300px;
+  padding-left: 20%;
+  padding-right: 20%;
+  z-index: 0;
+  resize: both;
+  overflow: auto;
+
 }
 p{
-  padding-right: 500px;
-  padding-left: 300px;
+
+  margin: 0 auto;
+  min-width: 500px;
+  padding-left: 20%;
+  padding-right: 20%;
 }
 img{
-  padding-right: 300px;
-  padding-left: 300px;
+  padding-left: 20%;
+  padding-right: 20%;
+  padding-top: 10px;
+  resize: both;
+  overflow: auto;
 }
 form{
-  padding-right: 300px;
-  padding-left: 300px;
+  padding-left: 20%;
+  padding-right: 20%;
+  resize: both;
+  overflow: auto;
 }
 title{
   font-weight: bold;
@@ -62,6 +88,8 @@ title{
     top: 0; /* Position the navbar at the top of the page */
     width: 98.9%; /* Full width */
     padding: 0;
+    z-index: 1;
+
 }
 
 /* Links inside the navbar */
@@ -72,6 +100,7 @@ title{
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    z-index: 1;
 }
 /* Change background on mouse-over */
 .navbar a:hover {

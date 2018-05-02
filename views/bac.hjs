@@ -45,11 +45,10 @@
                 <br><br>Amount of time elapsed:<br>
                 <input type="number" id="time_elapsed" value="0"> hours<br><br>
                 <input type="button" id="go" value="Submit" onclick="calculateBAC();"/><br>
-
             </form>
 
             <script src="calculations.js"></script>
-
+            <br><br><br>
         </body>
 
 
