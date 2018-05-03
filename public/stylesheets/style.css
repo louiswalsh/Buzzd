@@ -2,11 +2,10 @@
 
 body {
   padding: 0px;
-  background-color:	#F5F5F5;
+  transparentbackground-image: url("https://i.imgur.com/8Cw8xMk.jpg");
   font-family: Raleway, sans-serif;
   font-size: 16px;
-  }
-
+}
 #lcol {vertical-align:top;}
 
 h1 {
@@ -18,7 +17,6 @@ h1 {
   min-width: 500px
   position:relative;
   z-index: 0;
-  resize: both;
   overflow: auto;
 
 }
@@ -50,9 +48,8 @@ h3
   z-index: 0;
   resize: both;
   overflow: auto;
-
 }
-p{
+p, ul{
 
   margin: 0 auto;
   min-width: 500px;

@@ -21,7 +21,16 @@
     <br><br><br>
     <h1 >WHAT'S THE BUZZ?!</h1>
     <a href="https://imgur.com/8EpBlkO"><img src="https://i.imgur.com/8EpBlkO.png" alt="Buzz'd" class: "center" "title="source: imgur.com" class="center" height="300px" width="300px"/></a>
-    <p>Buzz'd is the Wake Forest University substance abuse prevention, education, and intervention program. The mission of Buzz'd is to gain a greater understanding of the dynamics of alcohol and other drug misuse in our community, provide education, counseling and resources to individuals and groups, and empower students to party smarter, not harder. Buzz'd takes a realistic approach to alchol abuse on campus, focuzsing on educating students on safe-drinking practices and preventing high-risk behaviors rather than an idealistic 'abstinence only' message.</p>
+
+    <p>
+      <ul>
+        <li>Buzz'd is the Wake Forest University substance abuse prevention, education, and intervention program. </li>
+        <br>
+        <li>The mission of Buzz'd is to gain a greater understanding of the dynamics of alcohol and other drug misuse in our community, provide education, counseling and resources to individuals and groups, and empower students to party smarter, not harder. </li>
+        <br>
+        <li>Buzz'd takes a realistic approach to alchol abuse on campus, focuzsing on educating students on safe-drinking practices and preventing high-risk behaviors rather than an idealistic 'abstinence only' message.</li>
+      </ul>
+    </p>
 
 
   </body>

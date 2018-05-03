@@ -43,12 +43,25 @@
           </div>
         </div><!-- .cup row -->
 
-    		<div class="cup last row">
+    		<div class="cup row">
     			<div class="span6">
               <h3>University Counseling Center</h3>
-
+                <p> The University Counseling Center offers services such as individual assessment and counseling as it relates to alcohol and other drug misuse.</p>
           </div>
     		</div><!-- .cup row -->
+        <div class="cup row">
+    			<div class="span6">
+              <h3>Web Based Resources</h3>
+                <p> The Thrive Office offers online screenings and assessment tools. Please follow <a href="http://thrive.wfu.edu/wfu-choices-alcohol-and-other-drugs/"target = "_blank">this link</a> to learn more.</p>
+          </div>
+    		</div><!-- .cup row -->
+        <div class="cup last row">
+    			<div class="span6">
+              <h3>Referrals & Consultations</h3>
+                <p> The Office of Wellbeing can provide referrals to campus cand community support services. We also offer consultations to students, staff, and faculty on alcohol and other drug concerns.</p>
+          </div>
+    		</div><!-- .cup row -->
+
 
     </div><!-- .container -->
 
