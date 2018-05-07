@@ -66,6 +66,7 @@ img{
   padding-top: 10px;
   resize: both;
   overflow: auto;
+  align-items: center;
 }
 form{
   padding-left: 20%;
