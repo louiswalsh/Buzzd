@@ -45,7 +45,7 @@
                     bac = 0;
                   }
                   bac = Math.round(bac * 100) / 100
-                  document.write("Your BAC is: " + bac);
+                  alert("Your BAC is: " + bac);
               }
               </script>
         </head>
