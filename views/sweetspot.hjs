@@ -10,20 +10,20 @@
     <link rel="icon" href="https://i.imgur.com/lgzQoTG.png">
   </head>
   <div class="navbar">
-    <a href="/#home">Home</a>
-    <a href="/sweetspot">Sweetspot</a>
-    <a href="/bac">BAC Calculator</a>
-    <a href="/events">Upcoming Events</a>
-    <a href="/resources">Resources</a>
-    <a href="/cups">Cups</a>
-    <a href="/contact">Contact Us</a>
-  </div>
+      <a href="/#home">Home</a>
+      <a href="/contact">Contact Us</a>
+      <a href="/cups">Cups</a>
+      <a href="/events">Upcoming Events</a>
+      <a href="/resources">Resources</a>
+      <a href="/bac">BAC Calculator</a>
+      <a href="/sweetspot">Sweetspot</a>
+    </div>
   <body>
     <br><br><br>
     <h1 >YOUR SWEETSPOT</h1>
     <p>The 'Sweetspot' is the point of alcohol's diminishing returns in alcohol's biphasic effect - when the positive, energizing and mood enhancing effects of alcohol reach their peak, before plummeting into the negative, depressant effects of alcohol.</p>
 <br><br><br><br>
-    <a href="https://imgur.com/RTTFsd0"><img src="https://i.imgur.com/RTTFsd0.png" alt="Buzz'd" title="source: imgur.com" class="center" height="210" width="233" /></a>
+    <img src="https://i.imgur.com/RTTFsd0.png" alt="Buzz'd" title="source: imgur.com" class="center" height="210" width="233" /></a>
   </body>
   <div id="footer">
         <div class="container">
@@ -67,7 +67,7 @@
           </li>
           </ul>
           <br>
-            <a href="https://imgur.com/IqjmsKE"><img src="https://i.imgur.com/IqjmsKE.png" title="source: imgur.com" / width="405" height="133"  class="center"></a>
+            <img src="https://i.imgur.com/IqjmsKE.png" title="source: imgur.com" / width="405" height="133"  class="center"></a>
           <p class="copyright pull-right">&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp Created by a group of students for the WFU Thrive office.</p>
         </div><!-- .container -->
       </div><!-- #footer -->

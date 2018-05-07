@@ -7,17 +7,16 @@
     <link rel='stylesheet' href='/stylesheets/style.css' />
     <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
     <link rel="icon" href="https://i.imgur.com/lgzQoTG.png">
-
   </head>
   <div class="navbar">
-    <a href="/#home">Home</a>
-    <a href="/sweetspot">Sweetspot</a>
-    <a href="/bac">BAC Calculator</a>
-    <a href="/events">Upcoming Events</a>
-    <a href="/resources">Resources</a>
-    <a href="/cups">Cups</a>
-    <a href="/contact">Contact Us</a>
-  </div>
+      <a href="/#home">Home</a>
+      <a href="/contact">Contact Us</a>
+      <a href="/cups">Cups</a>
+      <a href="/events">Upcoming Events</a>
+      <a href="/resources">Resources</a>
+      <a href="/bac">BAC Calculator</a>
+      <a href="/sweetspot">Sweetspot</a>
+    </div>
   <body>
     <br><br><br>
   	<h1>CONTACT US</h1>
@@ -27,50 +26,50 @@
     <p> If you have any questions or comments for the Buzz'd Team, please feel free to contact us by email at <a href="mailto:rivespe@wfu.edu?Subject=Buzzd%20Contact%20" target="_top">rivespe@wfu.edu</a> or at <a href="tel:336-758-4371">336-758-4371</a>. We look forward to hearing from you!</p>
   </body>
       <br><br><br>    <br><br><br><br><br><br>
-  <div id="footer">
-        <div class="container">
+      <div id="footer">
+            <div class="container">
 
-          <div class="social-widget">
-            <div class="facebook">
-              <a href="https://www.facebook.com/wfuthrive/" target = "_blank">
-                <img alt="Facebook"src="http://bewise.syr.edu/wp-content/themes/sube1/images/sharing_facebook.png"/>
-              </a>
-            </div><!-- .facebook -->
-            <div class="twitter">
-              <a title="Be Real, Know your Limits" href="https://twitter.com/WFUThrive" target="_blank" rel="nofollow">
-                <img alt="Twitter"src="http://bewise.syr.edu/wp-content/themes/sube1/images/sharing_twitter.png"/>
-              </a>
-            </div><!-- .twitter -->
-          </div><!-- .social -->
+              <div class="social-widget">
+                <div class="facebook">
+                  <a href="https://www.facebook.com/wfuthrive/" target = "_blank">
+                    <img alt="Facebook"src="http://bewise.syr.edu/wp-content/themes/sube1/images/sharing_facebook.png"/>
+                  </a>
+                </div><!-- .facebook -->
+                <div class="twitter">
+                  <a title="Be Real, Know your Limits" href="https://twitter.com/WFUThrive" target="_blank" rel="nofollow">
+                    <img alt="Twitter"src="http://bewise.syr.edu/wp-content/themes/sube1/images/sharing_twitter.png"/>
+                  </a>
+                </div><!-- .twitter -->
+              </div><!-- .social -->
 
 
-          <center>
-          <ul class="menu">
-            <li>
-            <a href="/#home">Home</a>
-          </li>
-          <li>
-            <a href="/sweetspot">Sweetspot</a>
-          </li>
-          <li>
-              <a href="/bac">BAC</a>
-          </li>
-          <li>
-            <a href="/events">Events</a>
-          </li>
-          <li>
-            <a href="/resources">Resources</a>
-          </li>
-          <li>
-            <a href="/cups">Cups</a>
-          </li>
-          <li>
-            <a href="/contact">Contact</a>
-          </li>
-          </ul>
-          <br>
-            <a href="https://imgur.com/IqjmsKE"><img src="https://i.imgur.com/IqjmsKE.png" title="source: imgur.com" / width="405" height="133"  class="center"></a>
-          <p class="copyright pull-right">&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp Created by a group of students for the WFU Thrive office.</p>
-        </div><!-- .container -->
-      </div><!-- #footer -->
+              <center>
+              <ul class="menu">
+                <li>
+                <a href="/#home">Home</a>
+              </li>
+              <li>
+                <a href="/sweetspot">Sweetspot</a>
+              </li>
+              <li>
+                  <a href="/bac">BAC</a>
+              </li>
+              <li>
+                <a href="/events">Events</a>
+              </li>
+              <li>
+                <a href="/resources">Resources</a>
+              </li>
+              <li>
+                <a href="/cups">Cups</a>
+              </li>
+              <li>
+                <a href="/contact">Contact</a>
+              </li>
+              </ul>
+              <br>
+                <img src="https://i.imgur.com/IqjmsKE.png" title="source: imgur.com" / width="405" height="133"  class="center"></a>
+              <p class="copyright pull-right">&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp Created by a group of students for the WFU Thrive office.</p>
+            </div><!-- .container -->
+          </div><!-- #footer -->
 </html>

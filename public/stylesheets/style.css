@@ -1,10 +1,12 @@
 
 
 body {
-  padding: 0px;
-  transparentbackground-image: url("https://i.imgur.com/8Cw8xMk.jpg");
   font-family: Raleway, sans-serif;
   font-size: 16px;
+  height: 100%;
+  position: relative;
+  padding-bottom: 14px;
+  margin-top: 30px; /* Add a top margin to avoid content overlay */
 }
 #lcol {vertical-align:top;}
 
@@ -52,7 +54,6 @@ h3
 
 }
 p, ul, center{
-
   margin: 0 auto;
   min-width: 500px;
   padding-left: 20%;
@@ -92,8 +93,18 @@ title{
     z-index: 1;
 }
 /* Links inside the navbar */
+.navbar a:first-child {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  z-index: 1;
+}
+/* Links inside the navbar */
 .navbar a {
-    float: left;
+    float: right;
     display: block;
     color: black;
     text-align: center;
@@ -107,29 +118,19 @@ title{
     color: black;
     font-weight: bold;
 }
-
-/* Main content */
-.body {
-    margin-top: 30px; /* Add a top margin to avoid content overlay */
-    margin-bottom: 30px;
-overlay */
-}
-
 #footer {
 	margin-top:50px;
-	background: #000000;
-  bottom: 0;
-  width: 100%;
-}
-
-#footer .container {
-	position: relative;
-  bottom: 0;
-  width: 100%;
+  height: 250px;
+  position: relative;
+  bottom:0;
+  width:100%;
+  background-color: black;
 }
 #footer .student-affairs img{
 	width: 83px;
 	margin-top: 20px;
+  color: white;
+
 }
 .social-widget {
 	height: 120px;
@@ -151,10 +152,14 @@ overlay */
 }
 
 #footer ul.menu {
-	margin: 0;
+	margin-top: 15;
+  color: white;
+
 }
 
 #footer ul.menu > li {
+  color: white;
+
 }
 
 #footer ul.menu > li > a {
@@ -162,16 +167,22 @@ overlay */
 	padding: 11px;
 	height: 61px;
 	line-height: 61px;
-	color: #ffffff;
-}
+  color: white;
 
+}
+#image
+{
+  background-color: #000000;
+
+}
 #footer .copyright {
 	color: #444444;
 	font-size: 12px;
 	margin-bottom: -20px;
   text-align: center;
-}
+  background-color: #000000;
 
+}
 
 li{
     list-style: none;
@@ -185,4 +196,5 @@ ul li{
   display: inline;
   margin-left: auto;
   margin-right: auto;
+  color: white;
 }

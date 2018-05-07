@@ -1,61 +1,53 @@
 <!DOCTYPE html>
 <html>
-  	<!-- {{ title }} tells HJS to use variable title when
-  		rendering this page -->
+    <head>
     <link rel='stylesheet' href='/stylesheets/style.css' />
     <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Maven+Pro" />
     <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
     <link rel="icon" href="https://i.imgur.com/lgzQoTG.png">
+      <script>
+        function calculateBAC() {
+            "use strict";
+            var gender = document.getElementById("gender").value;
+            var genderConst;
+            if (gender === "female") {
+                genderConst = 0.55;
+            } else if (gender === "male") {
+                genderConst = 0.68;
+            } else {
+                genderConst = 0.62;
+            }
 
+            var weight = document.getElementById("weight").value * 454;
+            var gramsOfAlcohol = document.getElementById("drink_count").value * 14;
+            var bac = (gramsOfAlcohol / (weight * genderConst)) * 100;
+            bac = bac - (document.getElementById("time_elapsed").value * 0.015);
+            if (bac<0)
+            {
+              bac = 0;
+            }
+            bac = Math.round(bac * 100) / 100
+            alert("Your BAC is: " + bac);
+        }
+        </script>
+    </head>
     <div class="navbar">
-      <a href="/#home">Home</a>
-      <a href="/sweetspot">Sweetspot</a>
-      <a href="/bac">BAC Calculator</a>
-      <a href="/events">Upcoming Events</a>
-      <a href="/resources">Resources</a>
-      <a href="/cups">Cups</a>
-      <a href="/contact">Contact Us</a>
-    </div>
-  <body>
+        <a href="/#home">Home</a>
+        <a href="/contact">Contact Us</a>
+        <a href="/cups">Cups</a>
+        <a href="/events">Upcoming Events</a>
+        <a href="/resources">Resources</a>
+        <a href="/bac">BAC Calculator</a>
+        <a href="/sweetspot">Sweetspot</a>
+      </div>
     <br><br><br>
-        <head>
-            <meta charset="utf-8">
-            <meta http-equiv="X-UA-Compatible" content="IE=edge">
-            <title>BAC Calculator</title>
-            <meta name="description" content="A calculator designed to estimate your blood alcohol content given the number and types of drinks consumed.">
-            <script>
-              function calculateBAC() {
-                  "use strict";
-                  var gender = document.getElementById("gender").value;
-                  var genderConst;
-                  if (gender === "female") {
-                      genderConst = 0.55;
-                  } else if (gender === "male") {
-                      genderConst = 0.68;
-                  } else {
-                      genderConst = 0.62;
-                  }
-
-                  var weight = document.getElementById("weight").value * 454;
-                  var gramsOfAlcohol = document.getElementById("drink_count").value * 14;
-                  var bac = (gramsOfAlcohol / (weight * genderConst)) * 100;
-                  bac = bac - (document.getElementById("time_elapsed").value * 0.015);
-                  if (bac<0)
-                  {
-                    bac = 0;
-                  }
-                  bac = Math.round(bac * 100) / 100
-                  alert("Your BAC is: " + bac);
-              }
-              </script>
-        </head>
+    <body>
             <h1>BAC Calculator</h1>
-            <center>
-            <p>Use this BAC Calculator to find your Sweetspot.</p>
+            <p style = "text-align: justify">Use this BAC Calculator to find your Sweetspot.</p>
             <p>For a safe night of drinking, stay at a level of 0.05 or below, and you'll have the perfect ''Buzz!''</p>
             <br>
             <p>Please use the following chart to estimate the quantity of standard drinks consumed, each representing a single standard drink:</p>
-            <a href="https://i.imgur.com/sAZ5xBY.jpg"><img src="https://i.imgur.com/sAZ5xBY.jpg" alt="Buzz'd" class: "center" "title="source: imgur.com" class="center" /></a>
+            <center><img src="https://i.imgur.com/sAZ5xBY.jpg" alt="Buzz'd" title="source: imgur.com"/></a> </center>
             <form>
                 Gender: <br>
                 <select id="gender">
@@ -69,79 +61,66 @@
                 <input type="number" id="drink_count" value="0">
                 <br><br>Amount of time elapsed:<br>
                 <input type="number" id="time_elapsed" value="0"> hours<br><br>
-                <input type="button" id="go" value="Submit" onclick="calculateBAC();"/><br>
+                <input type="button" id="go" value="Submit" onclick="calculateBAC();"><br>
             </form>
+
             <br><br><br>
             <h1>The risky stuff</h1>
-        	<div class="row">
-        		<div class="span4">
-        			<div class="video">
-        				<img src="http://dsadepts.syr.edu/bewise/wp-content/uploads/sites/13/2015/09/risky_energydrink.jpeg">
-        			</div>
+        				<center><img src="http://dsadepts.syr.edu/bewise/wp-content/uploads/sites/13/2015/09/risky_energydrink.jpeg"></center>
         			<h2>Energy drinks</h2>
         			<p>The caffeine in energy drinks can mask the effects of alcohol and make it more likely for you to drink too much.  Energy drinks alone can cause heart problems and when combined with alcohol the effects can be even worse.</p>
-        		</div>
-        		<div class="span4">
-        			<div class="video">
-        				<img src="http://dsadepts.syr.edu/bewise/wp-content/uploads/sites/13/2012/09/risky_junglejuice.jpeg">
-        			</div>
+        				<center><img src="http://dsadepts.syr.edu/bewise/wp-content/uploads/sites/13/2012/09/risky_junglejuice.jpeg"></center>
         			<h2>Punch</h2>
         			<p>Don't know who made it. Don't know what's in it. Don't know where it's been. Don't drink it.</p>
-        		</div>
-        		<div class="span4">
-        			<div class="video">
-        				<img src="http://dsadepts.syr.edu/bewise/wp-content/uploads/sites/13/2012/09/risky_mixeddrinks.jpeg">
-        			</div>
+        				<center><img src="http://dsadepts.syr.edu/bewise/wp-content/uploads/sites/13/2012/09/risky_mixeddrinks.jpeg"></center>
         			<h2>Shots</h2>
         			<p>Shots may be small, cheap, and easy, but they're also just as potent, harmful, and hard to keep track of.  To be safe, steer clear of taking shots, especially while pregaming.</p>
-        		</div>
+
         </body>
-  </body>
-</center>
-  <div id="footer">
-        <div class="container">
+        <div id="footer">
+              <div class="container">
 
-          <div class="social-widget">
-            <div class="facebook">
-              <a href="https://www.facebook.com/wfuthrive/" target = "_blank">
-                <img alt="Facebook"src="http://bewise.syr.edu/wp-content/themes/sube1/images/sharing_facebook.png"/>
-              </a>
-            </div><!-- .facebook -->
-            <div class="twitter">
-              <a title="Be Real, Know your Limits" href="https://twitter.com/WFUThrive" target="_blank" rel="nofollow">
-                <img alt="Twitter"src="http://bewise.syr.edu/wp-content/themes/sube1/images/sharing_twitter.png"/>
-              </a>
-            </div><!-- .twitter -->
-          </div><!-- .social -->
+                <div class="social-widget">
+                  <div class="facebook">
+                    <a href="https://www.facebook.com/wfuthrive/" target = "_blank">
+                      <img alt="Facebook"src="http://bewise.syr.edu/wp-content/themes/sube1/images/sharing_facebook.png"/>
+                    </a>
+                  </div><!-- .facebook -->
+                  <div class="twitter">
+                    <a title="Be Real, Know your Limits" href="https://twitter.com/WFUThrive" target="_blank" rel="nofollow">
+                      <img alt="Twitter"src="http://bewise.syr.edu/wp-content/themes/sube1/images/sharing_twitter.png"/>
+                    </a>
+                  </div><!-- .twitter -->
+                </div><!-- .social -->
 
 
-          <center>
-          <ul class="menu">
-            <li>
-            <a href="/#home">Home</a>
-          </li>
-          <li>
-            <a href="/sweetspot">Sweetspot</a>
-          </li>
-          <li>
-              <a href="/bac">BAC</a>
-          </li>
-          <li>
-            <a href="/events">Events</a>
-          </li>
-          <li>
-            <a href="/resources">Resources</a>
-          </li>
-          <li>
-            <a href="/cups">Cups</a>
-          </li>
-          <li>
-            <a href="/contact">Contact</a>
-          </li>
-          </ul>
-          <br>
-            <a href="https://imgur.com/IqjmsKE"><img src="https://i.imgur.com/IqjmsKE.png" title="source: imgur.com" / width="405" height="133"  class="center"></a>
-          <p class="copyright pull-right">&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp Created by a group of students for the WFU Thrive office.</p>
-        </div><!-- .container -->
-      </div><!-- #footer -->
+                <center>
+                <ul class="menu">
+                  <li>
+                  <a href="/#home">Home</a>
+                </li>
+                <li>
+                  <a href="/sweetspot">Sweetspot</a>
+                </li>
+                <li>
+                    <a href="/bac">BAC</a>
+                </li>
+                <li>
+                  <a href="/events">Events</a>
+                </li>
+                <li>
+                  <a href="/resources">Resources</a>
+                </li>
+                <li>
+                  <a href="/cups">Cups</a>
+                </li>
+                <li>
+                  <a href="/contact">Contact</a>
+                </li>
+                </ul>
+                <br>
+                  <img src="https://i.imgur.com/IqjmsKE.png" title="source: imgur.com" / width="405" height="133"  class="center"></a>
+                <p class="copyright pull-right">&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp Created by a group of students for the WFU Thrive office.</p>
+              </div><!-- .container -->
+            </div><!-- #footer -->
 </html>

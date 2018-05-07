@@ -10,14 +10,14 @@
 
   </head>
   <div class="navbar">
-    <a href="/#home">Home</a>
-    <a href="/sweetspot">Sweetspot</a>
-    <a href="/bac">BAC Calculator</a>
-    <a href="/events">Upcoming Events</a>
-    <a href="/resources">Resources</a>
-    <a href="/cups">Cups</a>
-    <a href="/contact">Contact Us</a>
-  </div>
+      <a href="/#home">Home</a>
+      <a href="/contact">Contact Us</a>
+      <a href="/cups">Cups</a>
+      <a href="/events">Upcoming Events</a>
+      <a href="/resources">Resources</a>
+      <a href="/bac">BAC Calculator</a>
+      <a href="/sweetspot">Sweetspot</a>
+    </div>
   <br>
   <br>
   <br>
@@ -105,7 +105,7 @@
           </li>
           </ul>
           <br>
-            <a href="https://imgur.com/IqjmsKE"><img src="https://i.imgur.com/IqjmsKE.png" title="source: imgur.com" / width="405" height="133"  class="center"></a>
+            <img src="https://i.imgur.com/IqjmsKE.png" title="source: imgur.com" / width="405" height="133"  class="center"></a>
           <p class="copyright pull-right">&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp Created by a group of students for the WFU Thrive office.</p>
         </div><!-- .container -->
       </div><!-- #footer -->
