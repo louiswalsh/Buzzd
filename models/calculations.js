@@ -2,6 +2,7 @@ function calculateBAC() {
     "use strict";
     var gender = document.getElementById("gender").value;
     var genderConst;
+    console.log(gender);
     if (gender === "female") {
         genderConst = 0.55;
     } else if (gender === "male") {
@@ -14,5 +15,5 @@ function calculateBAC() {
     var gramsOfAlcohol = document.getElementById("drink_count").value * 14;
     var bac = (gramsOfAlcohol / (weight * genderConst)) * 100;
     bac = bac - (document.getElementById("time_elapsed").value * 0.015);
-    alert("Your BAC is: " + bac);
+    window.alert("Your BAC is: " + bac);
 }

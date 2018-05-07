@@ -7,13 +7,6 @@
     <link rel='stylesheet' href='/stylesheets/style.css' />
     <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
     <link rel="icon" href="https://i.imgur.com/lgzQoTG.png">
-
-  <style>
-    h1, h2, h3, p{
-    padding-left: 300px;
-    padding-right: 300px;
-  }
-  </style>
   </head>
   <div class="navbar">
     <a href="/#home">Home</a>

@@ -16,7 +16,6 @@
       <a href="/cups">Cups</a>
       <a href="/contact">Contact Us</a>
     </div>
-
   <body>
     <br><br><br>
         <head>
@@ -24,7 +23,31 @@
             <meta http-equiv="X-UA-Compatible" content="IE=edge">
             <title>BAC Calculator</title>
             <meta name="description" content="A calculator designed to estimate your blood alcohol content given the number and types of drinks consumed.">
-            <link rel="stylesheet" href="main.css">
+            <script>
+              function calculateBAC() {
+                  "use strict";
+                  var gender = document.getElementById("gender").value;
+                  var genderConst;
+                  if (gender === "female") {
+                      genderConst = 0.55;
+                  } else if (gender === "male") {
+                      genderConst = 0.68;
+                  } else {
+                      genderConst = 0.62;
+                  }
+
+                  var weight = document.getElementById("weight").value * 454;
+                  var gramsOfAlcohol = document.getElementById("drink_count").value * 14;
+                  var bac = (gramsOfAlcohol / (weight * genderConst)) * 100;
+                  bac = bac - (document.getElementById("time_elapsed").value * 0.015);
+                  if (bac<0)
+                  {
+                    bac = 0;
+                  }
+                  bac = Math.round(bac * 100) / 100
+                  document.write("Your BAC is: " + bac);
+              }
+              </script>
         </head>
             <h1>BAC Calculator</h1>
             <p>Use this BAC Calculator to find your Sweetspot.</p>
@@ -47,12 +70,7 @@
                 <input type="number" id="time_elapsed" value="0"> hours<br><br>
                 <input type="button" id="go" value="Submit" onclick="calculateBAC();"/><br>
             </form>
-
-            <script src="calculations.js"></script>
             <br><br><br>
         </body>
-
-
-
   </body>
 </html>
