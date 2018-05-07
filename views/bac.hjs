@@ -50,6 +50,7 @@
               </script>
         </head>
             <h1>BAC Calculator</h1>
+            <center>
             <p>Use this BAC Calculator to find your Sweetspot.</p>
             <p>For a safe night of drinking, stay at a level of 0.05 or below, and you'll have the perfect ''Buzz!''</p>
             <br>
@@ -60,7 +61,7 @@
                 <select id="gender">
                     <option value="female">Female</option>
                     <option value="male">Male</option>
-                    <option value="neither">Other</option>
+                    <option value="neither">Prefer not to say</option>
                 </select>
                 <br><br> Weight: <br>
                 <input type="number" id="weight" value="140"> lbs
@@ -71,6 +72,76 @@
                 <input type="button" id="go" value="Submit" onclick="calculateBAC();"/><br>
             </form>
             <br><br><br>
+            <h1>The risky stuff</h1>
+        	<div class="row">
+        		<div class="span4">
+        			<div class="video">
+        				<img src="http://dsadepts.syr.edu/bewise/wp-content/uploads/sites/13/2015/09/risky_energydrink.jpeg">
+        			</div>
+        			<h2>Energy drinks</h2>
+        			<p>The caffeine in energy drinks can mask the effects of alcohol and make it more likely for you to drink too much.  Energy drinks alone can cause heart problems and when combined with alcohol the effects can be even worse.</p>
+        		</div>
+        		<div class="span4">
+        			<div class="video">
+        				<img src="http://dsadepts.syr.edu/bewise/wp-content/uploads/sites/13/2012/09/risky_junglejuice.jpeg">
+        			</div>
+        			<h2>Punch</h2>
+        			<p>Don't know who made it. Don't know what's in it. Don't know where it's been. Don't drink it.</p>
+        		</div>
+        		<div class="span4">
+        			<div class="video">
+        				<img src="http://dsadepts.syr.edu/bewise/wp-content/uploads/sites/13/2012/09/risky_mixeddrinks.jpeg">
+        			</div>
+        			<h2>Shots</h2>
+        			<p>Shots may be small, cheap, and easy, but they're also just as potent, harmful, and hard to keep track of.  To be safe, steer clear of taking shots, especially while pregaming.</p>
+        		</div>
         </body>
   </body>
+</center>
+  <div id="footer">
+        <div class="container">
+
+          <div class="social-widget">
+            <div class="facebook">
+              <a href="https://www.facebook.com/wfuthrive/" target = "_blank">
+                <img alt="Facebook"src="http://bewise.syr.edu/wp-content/themes/sube1/images/sharing_facebook.png"/>
+              </a>
+            </div><!-- .facebook -->
+            <div class="twitter">
+              <a title="Be Real, Know your Limits" href="https://twitter.com/WFUThrive" target="_blank" rel="nofollow">
+                <img alt="Twitter"src="http://bewise.syr.edu/wp-content/themes/sube1/images/sharing_twitter.png"/>
+              </a>
+            </div><!-- .twitter -->
+          </div><!-- .social -->
+
+
+          <center>
+          <ul class="menu">
+            <li>
+            <a href="/#home">Home</a>
+          </li>
+          <li>
+            <a href="/sweetspot">Sweetspot</a>
+          </li>
+          <li>
+              <a href="/bac">BAC</a>
+          </li>
+          <li>
+            <a href="/events">Events</a>
+          </li>
+          <li>
+            <a href="/resources">Resources</a>
+          </li>
+          <li>
+            <a href="/cups">Cups</a>
+          </li>
+          <li>
+            <a href="/contact">Contact</a>
+          </li>
+          </ul>
+          <br>
+            <a href="https://imgur.com/IqjmsKE"><img src="https://i.imgur.com/IqjmsKE.png" title="source: imgur.com" / width="405" height="133"  class="center"></a>
+          <p class="copyright pull-right">&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp Created by a group of students for the WFU Thrive office.</p>
+        </div><!-- .container -->
+      </div><!-- #footer -->
 </html>

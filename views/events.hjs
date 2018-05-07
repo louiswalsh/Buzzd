@@ -21,6 +21,52 @@
     <br><br><br>
     <h1>EVENTS</h1>
     <iframe src="https://calendar.google.com/calendar/embed?title=BUZZ&#39;D%20EVENT%20CALENDAR&amp;showPrint=0&amp;showTabs=0&amp;height=600&amp;wkst=1&amp;bgcolor=%23ffcc00&amp;src=yenida14%40wfu.edu&amp;color=%2329527A&amp;ctz=America%2FNew_York" style= "border:0px" width="800" height="600" scrolling="no" border-width=0 class:"center" ></iframe>
-
   </body>
+      <br><br><br>    <br><br><br>    <br><br><br>    <br><br><br>    <br><br><br>    <br><br><br>    <br><br><br>    <br><br><br>    <br><br><br>    <br><br><br>
+  <div id="footer">
+        <div class="container">
+
+          <div class="social-widget">
+            <div class="facebook">
+              <a href="https://www.facebook.com/wfuthrive/" target = "_blank">
+                <img alt="Facebook"src="http://bewise.syr.edu/wp-content/themes/sube1/images/sharing_facebook.png"/>
+              </a>
+            </div><!-- .facebook -->
+            <div class="twitter">
+              <a title="Be Real, Know your Limits" href="https://twitter.com/WFUThrive" target="_blank" rel="nofollow">
+                <img alt="Twitter"src="http://bewise.syr.edu/wp-content/themes/sube1/images/sharing_twitter.png"/>
+              </a>
+            </div><!-- .twitter -->
+          </div><!-- .social -->
+
+
+          <center>
+          <ul class="menu">
+            <li>
+            <a href="/#home">Home</a>
+          </li>
+          <li>
+            <a href="/sweetspot">Sweetspot</a>
+          </li>
+          <li>
+              <a href="/bac">BAC</a>
+          </li>
+          <li>
+            <a href="/events">Events</a>
+          </li>
+          <li>
+            <a href="/resources">Resources</a>
+          </li>
+          <li>
+            <a href="/cups">Cups</a>
+          </li>
+          <li>
+            <a href="/contact">Contact</a>
+          </li>
+          </ul>
+          <br>
+            <a href="https://imgur.com/IqjmsKE"><img src="https://i.imgur.com/IqjmsKE.png" title="source: imgur.com" / width="405" height="133"  class="center"></a>
+          <p class="copyright pull-right">&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp Created by a group of students for the WFU Thrive office.</p>
+        </div><!-- .container -->
+      </div><!-- #footer -->
 </html>

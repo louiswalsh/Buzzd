@@ -48,13 +48,16 @@ h3
   z-index: 0;
   resize: both;
   overflow: auto;
+  text-align: justify;
+
 }
-p, ul{
+p, ul, center{
 
   margin: 0 auto;
   min-width: 500px;
   padding-left: 20%;
   padding-right: 20%;
+  text-align: justify;
 }
 img{
   padding-left: 20%;
@@ -66,6 +69,7 @@ img{
 form{
   padding-left: 20%;
   padding-right: 20%;
+  padding-bottom: 30px;
   resize: both;
   overflow: auto;
 }
@@ -107,5 +111,78 @@ title{
 /* Main content */
 .body {
     margin-top: 30px; /* Add a top margin to avoid content overlay */
+    margin-bottom: 30px;
 overlay */
+}
+
+#footer {
+	margin-top:50px;
+	background: #000000;
+  bottom: 0;
+  width: 100%;
+}
+
+#footer .container {
+	position: relative;
+  bottom: 0;
+  width: 100%;
+}
+#footer .student-affairs img{
+	width: 83px;
+	margin-top: 20px;
+}
+.social-widget {
+	height: 120px;
+	width: 60px;
+	position: fixed;
+	left: 0;
+	top: 47%;
+	background: #000000;
+}
+.social-widget > div {
+	width: 26px;
+	height: 26px;
+	padding: 17px;
+	float: left;
+}
+.social-widget img {
+	height: 26px;
+	max-width: none;
+}
+
+#footer ul.menu {
+	margin: 0;
+}
+
+#footer ul.menu > li {
+}
+
+#footer ul.menu > li > a {
+	font-size: 13px;
+	padding: 11px;
+	height: 61px;
+	line-height: 61px;
+	color: #ffffff;
+}
+
+#footer .copyright {
+	color: #444444;
+	font-size: 12px;
+	margin-bottom: -20px;
+  text-align: center;
+}
+
+
+li{
+    list-style: none;
+    list-style:none;
+    text-align: center;
+    -webkit-box-flex: 1;
+    -moz-box-flex: 1;
+    box-flex: 1;
+}
+ul li{
+  display: inline;
+  margin-left: auto;
+  margin-right: auto;
 }
