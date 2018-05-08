@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html>
-<div id = container>
   <head>
   	<!-- {{ title }} tells HJS to use variable title when
   		rendering this page -->
@@ -18,8 +17,9 @@
     <link rel='stylesheet' href='/stylesheets/style.css' />
     <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
     <link rel="icon" href="https://i.imgur.com/lgzQoTG.png">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
   </head>
+  <div id = container>
+
   <div class="navbar">
       <a href="/#home">Home</a>
       <a href="/contact">Contact Us</a>

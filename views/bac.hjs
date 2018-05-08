@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html>
-<div id = "container">
     <head>
       <!-- Global site tag (gtag.js) - Google Analytics -->
       <script async src="https://www.googletagmanager.com/gtag/js?id=UA-118891007-1"></script>
@@ -11,7 +10,6 @@
 
         gtag('config', 'UA-118891007-1');
       </script>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel='stylesheet' href='/stylesheets/style.css' />
     <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Maven+Pro" />
     <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
@@ -42,6 +40,7 @@
         }
         </script>
     </head>
+    <div id = container>
     <div class="navbar">
         <a href="/#home">Home</a>
         <a href="/contact">Contact Us</a>

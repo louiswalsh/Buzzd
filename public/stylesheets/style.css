@@ -4,6 +4,7 @@ html, body {
   font-family: Raleway, sans-serif;
   font-size: 16px;
   height: 100%;
+  width: 100%;
   position: relative;
   margin-top: 30px; /* Add a top margin to avoid content overlay */
   margin-left: 0;
@@ -119,9 +120,9 @@ title{
 }
 #footer {
   height: 250px;
+  width: 100%;
   position: absolute;
   bottom: 0;
-  width:100%;
   background-color: black;
 }
 #footer ul.menu > li > a {
