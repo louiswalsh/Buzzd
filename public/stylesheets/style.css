@@ -9,10 +9,8 @@ html, body {
   margin-left: 0;
   margin-right: 0;
   margin-bottom: 0;
-  padding-bottom:250px;
 }
 #container{
-  min-height: calc(100vh - 260px);
   position: relative;
   margin 0 auto;
 }
@@ -135,7 +133,6 @@ title{
 #footer .copyright {
 	color: #444444;
 	font-size: 12px;
-	margin-bottom: -20px;
   text-align: center;
   background-color: #000000;
 }
