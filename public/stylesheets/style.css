@@ -12,12 +12,13 @@ html, body {
 }
 #container{
   position: relative;
-  margin 0 auto;
+  min-height: 100%;
 }
 #body
 {
   padding: 10px;
-  padding-bottom: 250px
+  padding-bottom: 280px;
+
 }
 
 #lcol {vertical-align:top;}
@@ -46,7 +47,9 @@ h3
   padding-left: 20%;
   padding-right: 20%;
   z-index: 0;
+  position: relative;
   text-align: justify;
+
 }
 p, ul, center{
   margin: 0 auto;

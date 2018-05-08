@@ -18,7 +18,6 @@
     <link rel='stylesheet' href='/stylesheets/style.css' />
     <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
     <link rel="icon" href="https://i.imgur.com/lgzQoTG.png">
-
   </head>
   <div class="navbar">
       <a href="/#home">Home</a>
