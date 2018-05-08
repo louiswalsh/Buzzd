@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+<div id = container>
   <head>
   	<!-- {{ title }} tells HJS to use variable title when
   		rendering this page -->
@@ -60,57 +61,59 @@
 		<div class="cup last row">
 			<div class="span6">
 				<h2>S - Slow Breathing</h2>
-				<p>Alcohol also affects the part of the brain that regulates breathing. Breaths can become slow, shallow and irregular.  A person may even have fewer than 8 breaths per minute.  If a person isn't breathing enough, they aren't getting enough oxygen to their brain.</p>
+				<p style="padding-bottom: 280px;" >Alcohol also affects the part of the brain that regulates breathing. Breaths can become slow, shallow and irregular.  A person may even have fewer than 8 breaths per minute.  If a person isn't breathing enough, they aren't getting enough oxygen to their brain.</p>
 	   	</div>
 		</div><!-- .cup row -->
 
 </div><!-- .container -->
 
   </body>
+  <div class="social-widget">
+    <div class="facebook">
+      <a href="https://www.facebook.com/wfuthrive/" target = "_blank">
+        <img alt="Facebook"src="http://bewise.syr.edu/wp-content/themes/sube1/images/sharing_facebook.png"/>
+      </a>
+    </div><!-- .facebook -->
+    <div class="twitter">
+      <a title="Be Real, Know your Limits" href="https://twitter.com/WFUThrive" target="_blank" rel="nofollow">
+        <img alt="Twitter"src="http://bewise.syr.edu/wp-content/themes/sube1/images/sharing_twitter.png"/>
+      </a>
+    </div><!-- .twitter -->
+  </div><!-- .social -->
   <div id="footer">
-        <div class="container">
+    <center>
+      <ul class="menu">
+        <li>
+        <a href="/#home">Home</a>
+        </li>
 
-          <div class="social-widget">
-            <div class="facebook">
-              <a href="https://www.facebook.com/wfuthrive/" target = "_blank">
-                <img alt="Facebook"src="http://bewise.syr.edu/wp-content/themes/sube1/images/sharing_facebook.png"/>
-              </a>
-            </div><!-- .facebook -->
-            <div class="twitter">
-              <a title="Be Real, Know your Limits" href="https://twitter.com/WFUThrive" target="_blank" rel="nofollow">
-                <img alt="Twitter"src="http://bewise.syr.edu/wp-content/themes/sube1/images/sharing_twitter.png"/>
-              </a>
-            </div><!-- .twitter -->
-          </div><!-- .social -->
+        <li>
+          <a href="/sweetspot">Sweetspot</a>
+        </li>
 
+        <li>
+            <a href="/bac">BAC</a>
+        </li>
 
-          <center>
-          <ul class="menu">
-            <li>
-            <a href="/#home">Home</a>
-          </li>
-          <li>
-            <a href="/sweetspot">Sweetspot</a>
-          </li>
-          <li>
-              <a href="/bac">BAC</a>
-          </li>
-          <li>
-            <a href="/events">Events</a>
-          </li>
-          <li>
-            <a href="/resources">Resources</a>
-          </li>
-          <li>
-            <a href="/cups">Cups</a>
-          </li>
-          <li>
-            <a href="/contact">Contact</a>
-          </li>
-          </ul>
-          <br>
-            <img src="https://i.imgur.com/IqjmsKE.png" title="source: imgur.com" / width="405" height="133"  class="center"></a>
-          <p class="copyright pull-right">Created by a group of students for the WFU Thrive office.</p>
-        </div><!-- .container -->
-      </div><!-- #footer -->
+        <li>
+          <a href="/events">Events</a>
+        </li>
+
+        <li>
+          <a href="/resources">Resources</a>
+        </li>
+
+        <li>
+          <a href="/cups">Cups</a>
+        </li>
+
+        <li>
+          <a href="/contact">Contact</a>
+        </li>
+      </ul>
+      <br>
+      <img src="https://i.imgur.com/IqjmsKE.png" title="source: imgur.com" / width="405" height="133"  class="center"></a>
+      <p class="copyright pull-right">Created by a group of students for the WFU Thrive office.</p>
+    </div><!-- #footer -->
+  </div> <!-- #container-->
 </html>

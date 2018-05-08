@@ -1,20 +1,21 @@
 <!DOCTYPE html>
 <html>
+<div id = container>
   <head>
   	<!-- {{ title }} tells HJS to use variable title when
   		rendering this page -->
       <!-- Global site tag (gtag.js) - Google Analytics -->
-      <script async src="https://www.googletagmanager.com/gtag/js?id=UA-118891007-1"></script>
-      <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-118891007-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
-        gtag('config', 'UA-118891007-1');
-      </script>
+  gtag('config', 'UA-118891007-1');
+</script>
 
+    <title>{{ title }}</title>
     <link rel='stylesheet' href='/stylesheets/style.css' />
-    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Maven+Pro" />
     <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
     <link rel="icon" href="https://i.imgur.com/lgzQoTG.png">
   </head>
@@ -27,60 +28,59 @@
       <a href="/bac">BAC Calculator</a>
       <a href="/sweetspot">Sweetspot</a>
     </div>
-  <body>
-    <br><br><br>
-        <h1 >YOUR SWEETSPOT</h1>
-    <br><br>
-    <p>The 'Sweetspot' is the point of alcohol's diminishing returns in alcohol's biphasic effect - when the positive, energizing and mood enhancing effects of alcohol reach their peak, before plummeting into the negative, depressant effects of alcohol.</p>
-    <center><img src="https://i.imgur.com/RTTFsd0.png" alt="Buzz'd" title="source: imgur.com" class="center" height="210" width="233" /></center>
-
-<br><br><br><br>
-  <center><img style="padding: 0"src="https://i.imgur.com/iBVOAuB.png" alt="Buzz'd" title="source: imgur.com" class="center" height="210" width="800" id="nopadding" /></center>
-  </body>
-  <div id="footer">
-        <div class="container">
-
-          <div class="social-widget">
-            <div class="facebook">
-              <a href="https://www.facebook.com/wfuthrive/" target = "_blank">
-                <img alt="Facebook"src="http://bewise.syr.edu/wp-content/themes/sube1/images/sharing_facebook.png"/>
-              </a>
-            </div><!-- .facebook -->
-            <div class="twitter">
-              <a title="Be Real, Know your Limits" href="https://twitter.com/WFUThrive" target="_blank" rel="nofollow">
-                <img alt="Twitter"src="http://bewise.syr.edu/wp-content/themes/sube1/images/sharing_twitter.png"/>
-              </a>
-            </div><!-- .twitter -->
-          </div><!-- .social -->
-
-
-          <center>
-          <ul class="menu">
-            <li>
-            <a href="/#home">Home</a>
+    <body>
+      <br><br><br>
+      <h1 >YOUR SWEETSPOT</h1>
+      <p>The 'Sweetspot' is the point of alcohol's diminishing returns in alcohol's biphasic effect - when the positive, energizing and mood enhancing effects of alcohol reach their peak, before plummeting into the negative, depressant effects of alcohol.</p>
+      <center><img style="margin-left: 0px; margin-right: 0px" src="https://i.imgur.com/4uOMZU2.png"height="420" width="466" />
+      <img style="padding-bottom: 280px; margin-left: 110px; margin-right: 0px"src="https://i.imgur.com/RTTFsd0.png" height="210" width="233"/></center>
+    </body>
+    <div class="social-widget">
+      <div class="facebook">
+        <a href="https://www.facebook.com/wfuthrive/" target = "_blank">
+          <img alt="Facebook"src="http://bewise.syr.edu/wp-content/themes/sube1/images/sharing_facebook.png"/>
+        </a>
+      </div><!-- .facebook -->
+      <div class="twitter">
+        <a title="Be Real, Know your Limits" href="https://twitter.com/WFUThrive" target="_blank" rel="nofollow">
+          <img alt="Twitter"src="http://bewise.syr.edu/wp-content/themes/sube1/images/sharing_twitter.png"/>
+        </a>
+      </div><!-- .twitter -->
+    </div><!-- .social -->
+    <div id="footer">
+      <center>
+        <ul class="menu">
+          <li>
+          <a href="/#home">Home</a>
           </li>
+
           <li>
             <a href="/sweetspot">Sweetspot</a>
           </li>
+
           <li>
               <a href="/bac">BAC</a>
           </li>
+
           <li>
             <a href="/events">Events</a>
           </li>
+
           <li>
             <a href="/resources">Resources</a>
           </li>
+
           <li>
             <a href="/cups">Cups</a>
           </li>
+
           <li>
             <a href="/contact">Contact</a>
           </li>
-          </ul>
-          <br>
-            <img src="https://i.imgur.com/IqjmsKE.png" title="source: imgur.com" / width="405" height="133"  class="center"></a>
-          <p class="copyright pull-right">Created by a group of students for the WFU Thrive office.</p>
-        </div><!-- .container -->
+        </ul>
+        <br>
+        <img src="https://i.imgur.com/IqjmsKE.png" title="source: imgur.com" / width="405" height="133"  class="center"></a>
+        <p class="copyright pull-right">Created by a group of students for the WFU Thrive office.</p>
       </div><!-- #footer -->
+    </div> <!-- #container-->
 </html>

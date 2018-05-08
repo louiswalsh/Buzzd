@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+<div id = container>
   <head>
   	<!-- {{ title }} tells HJS to use variable title when
   		rendering this page -->
@@ -34,90 +35,65 @@
   <body>
     <center><img src="https://i.imgur.com/3aTCFlm.png" title="source: imgur.com" /></center>
   	<h1>RESOURCES</h1>
-    <div class="header section">
-        <h2>THE HIVE</h2>
-    </div>
-
-    <div class="container section">
-    	<h3>The HIVE is the home to all of your resources offered by Wake Forest University and the surrounding community</h3>
-    		<div class="cup row">
-    			<div class="span6">
-       			<h3>Conditions and Task Force</h3>
-    				<p>In order to accomplish the goals and of the HIVE and buzz'd programs, it is crucial to actively involve members of the Wake Forest community and members of the local community surrounding Wake Forest in prevention efforts. Find out how you can get involved!</p>
-    	   	</div>
-    		</div><!-- .cup row -->
-
-        <div class="cup row">
-          <div class="span6">
-            <h3>Student Health Service</h3>
-            <p>The mission of the Student Health Service is to promote and maintain the health of students attending the university by modifying or removing health-related barriers to learning</p>
-          </div>
-        </div><!-- .cup row -->
-
-    		<div class="cup row">
-    			<div class="span6">
-              <h3>University Counseling Center</h3>
-                <p> The University Counseling Center offers services such as individual assessment and counseling as it relates to alcohol and other drug misuse.</p>
-          </div>
-    		</div><!-- .cup row -->
-        <div class="cup row">
-    			<div class="span6">
-              <h3>Web Based Resources</h3>
-                <p> The Thrive Office offers online screenings and assessment tools. Please follow <a href="http://thrive.wfu.edu/wfu-choices-alcohol-and-other-drugs/"target = "_blank">this link</a> to learn more.</p>
-          </div>
-    		</div><!-- .cup row -->
-        <div class="cup last row">
-    			<div class="span6">
-              <h3>Referrals & Consultations</h3>
-                <p> The Office of Wellbeing can provide referrals to campus cand community support services. We also offer consultations to students, staff, and faculty on alcohol and other drug concerns.</p>
-          </div>
-    		</div><!-- .cup row -->
-    </div><!-- .container -->
+      <h2>THE HIVE</h2>
+  	     <h3>The HIVE is the home to all of your resources offered by Wake Forest University and the surrounding community</h3>
+         <h3>Conditions and Task Force</h3>
+	         <p>In order to accomplish the goals and of the HIVE and buzz'd programs, it is crucial to actively involve members of the Wake Forest community and members of the local community surrounding Wake Forest in prevention efforts. Find out how you can get involved!</p>
+         <h3>Student Health Service</h3>
+           <p>The mission of the Student Health Service is to promote and maintain the health of students attending the university by modifying or removing health-related barriers to learning</p>
+         <h3>University Counseling Center</h3>
+           <p> The University Counseling Center offers services such as individual assessment and counseling as it relates to alcohol and other drug misuse.</p>
+         <h3>Web Based Resources</h3>
+           <p> The Thrive Office offers online screenings and assessment tools. Please follow <a href="http://thrive.wfu.edu/wfu-choices-alcohol-and-other-drugs/"target = "_blank">this link</a> to learn more.</p>
+         <h3>Referrals & Consultations</h3>
+           <p style="padding-bottom: 280px;"> The Office of Wellbeing can provide referrals to campus cand community support services. We also offer consultations to students, staff, and faculty on alcohol and other drug concerns.</p>
   </body>
+  <div class="social-widget">
+    <div class="facebook">
+      <a href="https://www.facebook.com/wfuthrive/" target = "_blank">
+        <img alt="Facebook"src="http://bewise.syr.edu/wp-content/themes/sube1/images/sharing_facebook.png"/>
+      </a>
+    </div><!-- .facebook -->
+    <div class="twitter">
+      <a title="Be Real, Know your Limits" href="https://twitter.com/WFUThrive" target="_blank" rel="nofollow">
+        <img alt="Twitter"src="http://bewise.syr.edu/wp-content/themes/sube1/images/sharing_twitter.png"/>
+      </a>
+    </div><!-- .twitter -->
+  </div><!-- .social -->
   <div id="footer">
-        <div class="container">
+    <center>
+      <ul class="menu">
+        <li>
+        <a href="/#home">Home</a>
+        </li>
 
-          <div class="social-widget">
-            <div class="facebook">
-              <a href="https://www.facebook.com/wfuthrive/" target = "_blank">
-                <img alt="Facebook"src="http://bewise.syr.edu/wp-content/themes/sube1/images/sharing_facebook.png"/>
-              </a>
-            </div><!-- .facebook -->
-            <div class="twitter">
-              <a title="Be Real, Know your Limits" href="https://twitter.com/WFUThrive" target="_blank" rel="nofollow">
-                <img alt="Twitter"src="http://bewise.syr.edu/wp-content/themes/sube1/images/sharing_twitter.png"/>
-              </a>
-            </div><!-- .twitter -->
-          </div><!-- .social -->
+        <li>
+          <a href="/sweetspot">Sweetspot</a>
+        </li>
 
+        <li>
+            <a href="/bac">BAC</a>
+        </li>
 
-          <center>
-          <ul class="menu">
-            <li>
-            <a href="/#home">Home</a>
-          </li>
-          <li>
-            <a href="/sweetspot">Sweetspot</a>
-          </li>
-          <li>
-              <a href="/bac">BAC</a>
-          </li>
-          <li>
-            <a href="/events">Events</a>
-          </li>
-          <li>
-            <a href="/resources">Resources</a>
-          </li>
-          <li>
-            <a href="/cups">Cups</a>
-          </li>
-          <li>
-            <a href="/contact">Contact</a>
-          </li>
-          </ul>
-          <br>
-            <img src="https://i.imgur.com/IqjmsKE.png" title="source: imgur.com" / width="405" height="133"  class="center"></a>
-          <p class="copyright pull-right">Created by a group of students for the WFU Thrive office.</p>
-        </div><!-- .container -->
-      </div><!-- #footer -->
+        <li>
+          <a href="/events">Events</a>
+        </li>
+
+        <li>
+          <a href="/resources">Resources</a>
+        </li>
+
+        <li>
+          <a href="/cups">Cups</a>
+        </li>
+
+        <li>
+          <a href="/contact">Contact</a>
+        </li>
+      </ul>
+      <br>
+      <img src="https://i.imgur.com/IqjmsKE.png" title="source: imgur.com" / width="405" height="133"  class="center"></a>
+      <p class="copyright pull-right">Created by a group of students for the WFU Thrive office.</p>
+    </div><!-- #footer -->
+  </div> <!-- #container-->
 </html>
