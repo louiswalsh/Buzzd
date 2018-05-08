@@ -50,7 +50,7 @@
         <a href="/bac">BAC Calculator</a>
         <a href="/sweetspot">Sweetspot</a>
       </div>
-    <br><br><br>
+    <br>
     <body>
             <h1>BAC Calculator</h1>
             <p style = "text-align: justify">Use this BAC Calculator to find your Sweetspot.</p>

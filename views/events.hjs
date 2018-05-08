@@ -12,8 +12,6 @@
 
   gtag('config', 'UA-118891007-1');
 </script>
-
-
     <link rel='stylesheet' href='/stylesheets/style.css' />
     <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Maven+Pro" />
     <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
@@ -31,7 +29,7 @@
     <div id = container>
 
   <body>
-    <br><br><br>
+    <br>
     <h1>EVENTS</h1>
     <iframe src="https://calendar.google.com/calendar/embed?title=BUZZ&#39;D%20EVENT%20CALENDAR&amp;showPrint=0&amp;showTabs=0&amp;height=600&amp;wkst=1&amp;bgcolor=%23ffcc00&amp;src=yenida14%40wfu.edu&amp;color=%2329527A&amp;ctz=America%2FNew_York" style= "border-width: 0px; padding-bottom: 280px;" width="800" height="600" scrolling="no" class:"center" ></iframe>
   </body>
